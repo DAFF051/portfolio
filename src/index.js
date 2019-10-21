@@ -1,11 +1,30 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import 'bootstrap/scss/bootstrap.scss';
-import '../scss/main.scss';
+import React, { Component } from 'react';
+// import Navbar from './components/navbar';
+// import Footer from './components/footer';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Home from './Home';
+// import About from './About';
+// import Contact from './Contact';
 
-function Welcome () {
-  return <h1 className="main border border-danger">Hello World from React boilerplate</h1>;
+class App extends Component {
+  render () {
+    return (
+
+      <Router>
+        <Switch>
+          {/*<Route path="/about">*/}
+          {/*  <About />*/}
+          {/*</Route>*/}
+
+          <Route path="/about">
+            <Home />
+          </Route>
+        </Switch>
+      </Router>
+    );
+  }
 }
 
-ReactDOM.render(<Welcome />, document.getElementById('root'));
+export default App;
+// ReactDOM.render(<Welcome />, document.getElementById('root'));
 
