@@ -1,11 +1,28 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import 'bootstrap/scss/bootstrap.scss';
 import '../scss/main.scss';
+import Welcome from './pages/home';
+import About from './pages/about';
 
-function Welcome () {
-  return <h1 className="main border border-danger">Hello World from React boilerplate</h1>;
+function App () {
+  return (
+    <Router>
+      <div>
+        <Switch>
+          <Route exact path="/">
+            <Welcome />
+          </Route>
+          <Route path="/about">
+            <About />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
+  );
 }
 
-ReactDOM.render(<Welcome />, document.getElementById('root'));
+
+ReactDOM.render(<App />, document.getElementById('root'));
 
