@@ -1,0 +1,51 @@
+.navbar {
+  .navbar-nav {
+    a {
+      &:hover, &:active {
+        border-bottom: 3px solid $primary;
+      }
+    }
+  }
+}
+
+.footer {
+  border-top: 1px solid $tertiary-light;
+  width: 100%;
+  position: absolute;
+  top: 100%;
+}
+
+.headquarters {
+  background: url('/assets/map.jpg') center / cover no-repeat;
+  color: $white;
+  @include media-breakpoint-down(sm) {
+    background: url('/assets/map-sm.jpg') center / cover no-repeat;
+  }
+
+  .clock-box {
+    border-radius: 60px;
+  }
+
+  .react-clock {
+    background-color: $primary;
+    margin-left: auto;
+    margin-right: auto;
+
+    &__hand__body ,&__minute-hand ,&__hour-hand__body, &__second-hand__body {
+      background-color: $white;
+    }
+
+    &__face {
+      border-color: $white;
+
+      * {
+        background-color: $white !important;
+        color: $white !important;
+      }
+    }
+  }
+}
+
+.container-fluid {
+  max-width: $container-fluid-max-width !important;
+}
