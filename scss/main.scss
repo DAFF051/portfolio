@@ -1,12 +1,9 @@
 @import "variables";
 
 // Import Bootstrap Source
-//@import "~bootstrap/scss";
+@import "~bootstrap/scss/bootstrap";
 
-//layout
-
+// layout
+@import "./layout";
 //pages
 
-.main {
-  //background-color: red;
-}

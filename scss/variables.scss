@@ -1,0 +1,97 @@
+// Variables
+
+
+
+// Color system
+
+$white:               #fff !default;
+$gray-600:            #4a4a4a !default;
+$gray-500:            #8A8A8A !default;
+$gray-200:            #ababab !default;
+$gray-100:            #dad9d9 !default;
+
+$black:               #000 !default;
+
+$green:               #a5ac73 !default;
+$pink:                #ff2c70 !default;
+$pink-light:          #ffa4c2 !default;
+
+$primary:             $pink !default;
+$secondary:           $gray-600 !default;
+$tertiary:            $gray-200 !default;
+$success:             $green !default;
+$primary-light:       $pink !default;
+$secondary-light:     $gray-500 !default;
+$tertiary-light:      $gray-100 !default;
+
+
+$theme-colors: () !default;
+
+$theme-colors: map-merge(
+   (
+     "primary": $primary,
+     "secondary": $secondary,
+     "light": $tertiary,
+     "primary-light": $primary-light,
+     "secondary-light": $secondary-light,
+     "tertiary-light": $tertiary-light,
+     "success":$success,
+   ),
+     $theme-colors
+);
+
+$body-color:           #303030;
+
+
+// Spacing
+//
+// Control the default styling of most Bootstrap elements by modifying these
+// variables. Mostly focused on spacing.
+// You can add more entries to the $spacers map, should you need more variation.
+
+$spacer: 1rem !default;
+$spacers: () !default;
+
+$spacers: map-merge(
+   (
+     0: 0,
+     1: ($spacer * .25),
+     2: ($spacer * .5),
+     3: $spacer,
+     4: ($spacer * 1.5),
+     5: ($spacer * 3),
+     6: ($spacer * 3.875)
+   ),
+     $spacers
+);
+
+
+// sizes
+
+$container-fluid-max-width: 1159px;
+
+// Typography
+
+$avenir-font-path: "./fonts/avenir-next/" !default;
+$font-family-base: "Avenir Next W00", "Avenir Next", "Avenir";
+$primary-headings-weight: 600;
+
+$display1-size:               3.125rem !default;
+$display2-size:               2.8125rem !default;
+$display3-size:               2.375rem !default;
+$display4-size:               1.875rem !default;
+
+$h1-font-size: 3.125rem;
+$h2-font-size: 2.8125rem;
+$h3-font-size: 2.375rem;
+$h4-font-size: 1.875rem;
+$h5-font-size: 1.25rem;
+$h6-font-size: 1.125rem;
+
+$font-weight-lighter:         200 !default;
+$font-weight-light:           300 !default;
+$font-weight-normal:          400 !default;
+$font-weight-bold:            600 !default;
+$font-weight-bolder:          900 !default;
+
+$enable-responsive-font-sizes : true !default;
