@@ -3,7 +3,8 @@
 
 
 // Color system
-
+$white:               #fff;
+$white-opacity:       rgba(255,255,255, 0.65);
 $white:               #fff !default;
 $gray-600:            #4a4a4a !default;
 $gray-500:            #8A8A8A !default;
@@ -60,7 +61,8 @@ $spacers: map-merge(
      3: $spacer,
      4: ($spacer * 1.5),
      5: ($spacer * 3),
-     6: ($spacer * 3.875)
+     6: ($spacer * 3.875),
+     7: ($spacer * 4)
    ),
      $spacers
 );
@@ -70,28 +72,32 @@ $spacers: map-merge(
 
 $container-fluid-max-width: 1159px;
 
+
 // Typography
 
-$avenir-font-path: "./fonts/avenir-next/" !default;
-$font-family-base: "Avenir Next W00", "Avenir Next", "Avenir";
+$font-family-base: 'Work Sans', sans-serif;
+$font-size-base: 0.9375rem;
 $primary-headings-weight: 600;
 
-$display1-size:               3.125rem !default;
-$display2-size:               2.8125rem !default;
-$display3-size:               2.375rem !default;
-$display4-size:               1.875rem !default;
+$display1-size:               3.4375rem;
+$display2-size:               2.8125rem;
+$display3-size:               2.375rem;
+$display4-size:               1.875rem;
+$display5-size:               1.25rem;
+$display6-size:               1.125rem;
 
-$h1-font-size: 3.125rem;
+$h1-font-size: 3.5rem;
 $h2-font-size: 2.8125rem;
 $h3-font-size: 2.375rem;
-$h4-font-size: 1.875rem;
+$h4-font-size: 1.4rem;
 $h5-font-size: 1.25rem;
 $h6-font-size: 1.125rem;
 
-$font-weight-lighter:         200 !default;
-$font-weight-light:           300 !default;
-$font-weight-normal:          400 !default;
-$font-weight-bold:            600 !default;
-$font-weight-bolder:          900 !default;
+$font-weight-thin:            100;
+$font-weight-lighter:         200;
+$font-weight-light:           300;
+$font-weight-normal:          400;
+$font-weight-bold:            600;
+$font-weight-bolder:          900;
 
-$enable-responsive-font-sizes : true !default;
+$enable-responsive-font-sizes : true;

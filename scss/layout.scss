@@ -1,6 +1,17 @@
 .navbar {
+  background-color: $white;
+
+  @include media-breakpoint-up(md) {
+    background: $white-opacity !important;
+  }
+
   .navbar-nav {
     a {
+      h4 {
+        color: $black;
+      }
+      border-bottom: 3px solid transparent;
+
       &:hover, &:active {
         border-bottom: 3px solid $primary;
       }
