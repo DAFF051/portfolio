@@ -1,41 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71280282-bc83-4b9c-804d-eb49df8366a3" name="Default Changelist" comment="">
+    <list default="true" id="7b670780-a6cc-44ca-a176-72930aba0209" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/home-Header.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/footer/footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/footer/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/headquarters/headquarters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/headquarters/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/homeHeader/homeHeader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/homeHeader/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/navbar/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/navbar/navbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/togetherBanner/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/togetherBanner/togetherBanner.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/file-loader/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/file-loader/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/file-loader/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/file-loader/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/file-loader/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/file-loader/dist/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/file-loader/dist/options.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/file-loader/dist/options.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/file-loader/node_modules/schema-utils/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/file-loader/node_modules/schema-utils/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/file-loader/node_modules/schema-utils/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/file-loader/node_modules/schema-utils/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/file-loader/node_modules/schema-utils/dist/ValidationError.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/file-loader/node_modules/schema-utils/dist/ValidationError.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/file-loader/node_modules/schema-utils/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/file-loader/node_modules/schema-utils/dist/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/file-loader/node_modules/schema-utils/dist/keywords/absolutePath.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/file-loader/node_modules/schema-utils/dist/keywords/absolutePath.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/file-loader/node_modules/schema-utils/dist/util/Range.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/file-loader/node_modules/schema-utils/dist/util/Range.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/file-loader/node_modules/schema-utils/dist/validate.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/file-loader/node_modules/schema-utils/dist/validate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/file-loader/node_modules/schema-utils/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/file-loader/node_modules/schema-utils/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/file-loader/node_modules/schema-utils/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/file-loader/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/file-loader/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/url-loader/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/url-loader/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/url-loader/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/url-loader/dist/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/url-loader/dist/options.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/url-loader/dist/options.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/url-loader/node_modules/schema-utils/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/url-loader/node_modules/schema-utils/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/url-loader/node_modules/schema-utils/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/url-loader/node_modules/schema-utils/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/url-loader/node_modules/schema-utils/dist/ValidationError.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/url-loader/node_modules/schema-utils/dist/ValidationError.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/url-loader/node_modules/schema-utils/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/url-loader/node_modules/schema-utils/dist/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/url-loader/node_modules/schema-utils/dist/keywords/absolutePath.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/url-loader/node_modules/schema-utils/dist/keywords/absolutePath.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/url-loader/node_modules/schema-utils/dist/util/Range.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/url-loader/node_modules/schema-utils/dist/util/Range.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/url-loader/node_modules/schema-utils/dist/validate.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/url-loader/node_modules/schema-utils/dist/validate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/url-loader/node_modules/schema-utils/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/url-loader/node_modules/schema-utils/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/url-loader/node_modules/schema-utils/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/url-loader/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/url-loader/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/layout.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/variables.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +34,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/homeHeader" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.stylelint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -59,6 +43,11 @@
     <property name="node.js.selected.package.stylelint" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/homeHeader" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -83,11 +72,9 @@
       <option name="presentableId" value="Default" />
       <updated>1574183945138</updated>
       <workItem from="1574183946638" duration="1883000" />
-      <workItem from="1574507058427" duration="732000" />
-      <workItem from="1575037275380" duration="2806000" />
-      <workItem from="1575040917576" duration="4715000" />
-      <workItem from="1575881696506" duration="78000" />
-      <workItem from="1581625735839" duration="621000" />
+      <workItem from="1574507058427" duration="172000" />
+      <workItem from="1579114573750" duration="1395000" />
+      <workItem from="1579116611640" duration="903000" />
     </task>
     <servers />
   </component>

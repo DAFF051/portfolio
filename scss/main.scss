@@ -1,12 +1,11 @@
 @import "variables";
 
 // Import Bootstrap Source
-//@import "~bootstrap/scss";
-@import "layout";
-//layout
+@import "~bootstrap/scss/bootstrap";
 
+// layout
+@import "./layout";
 //pages
 
-.main {
-  //background-color: red;
-}
+//fonts
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900&display=swap');
