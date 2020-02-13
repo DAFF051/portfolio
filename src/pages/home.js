@@ -1,7 +1,20 @@
 import React from 'react';
 
-function Welcome () {
-  return <h1 className="main border border-danger">Hello World from React boilerplate</h1>;
+function Home () {
+  return (
+    <div className="home-page vertical-center d-flex align-items-center">
+      <div className="container-fluid">
+        <div className="row justify-content-center">
+          <div className="col-10 col-md-6 col-lg-4  text-center border border-primary">
+            <div className="header-card">
+              <img src="assets/cat.jpg" className="personal-img img-fluid rounded-circle" alt="cat"/>
+            </div>
+            <div className="body" />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 }
 
-export default Welcome;
+export default Home;
