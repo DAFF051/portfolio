@@ -13,7 +13,7 @@ function WhatIDoHome () {
         </div>
         <div className="col-md-6">
           <div className="home-design-info">
-            <img src="assets/me.svg" className="img-fluid" />
+            <img src="assets/me.svg" alt=" " className="img-fluid" />
             <div className="bubble right">
               <div className="bubbling-design-icons-vert" />
             </div>
@@ -34,7 +34,7 @@ function WhatIDoHome () {
         </div>
         <div className="col-md-4 col-md-push-7">
           <div className="home-dev-info">
-            <img src="assets/me-dev.svg" className="img-fluid" />
+            <img src="assets/me-dev.svg" alt=" " className="img-fluid" />
             <div className="bubble left">
               <div className="bubbling-dev-icons-vert" />
             </div>
