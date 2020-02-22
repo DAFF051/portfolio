@@ -60,3 +60,14 @@
 .container-fluid {
   max-width: $container-fluid-max-width !important;
 }
+
+.item {
+  //width: 200px;
+  //height: 200px;/
+  margin: 10px auto;
+  padding-top: 75px;
+  background: #ccc;
+  text-align: center;
+  //color: #FFF;
+  font-size: 3em;
+}
