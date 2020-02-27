@@ -43,6 +43,17 @@ $theme-colors: map-merge(
 
 $body-color:           #303030;
 
+/**
+  transparent colors
+ */
+$dark-transparent: rgba(16, 44, 70, 0.53);
+
+
+$border-radius:               .25rem;
+$border-radius-xl:            2rem;
+$border-radius-lg:            .3rem;
+$border-radius-sm:            .2rem;
+
 
 // Spacing
 //
