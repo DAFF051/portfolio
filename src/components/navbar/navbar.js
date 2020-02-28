@@ -10,7 +10,7 @@ function Header () {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-lg-auto">
             <a to="who-we-are" className="mx-4 text-secondary text-decoration-none"><h5 className="font-weight-lighter">WHO I AM</h5></a>
-            <a to="what-we-do" className="mx-4 text-secondary text-decoration-none"><h5 className="font-weight-lighter">WHAT I DO</h5></a>
+            <a to="what-we-do" className="mx-4 text-secondary text-decoration-none"><h5 className="font-weight-lighter">Project</h5></a>
             <a to="contact-us" className="mx-4 text-secondary text-decoration-none"><h5 className="font-weight-lighter">CONTACT</h5></a>
           </Nav>
         </Navbar.Collapse>
