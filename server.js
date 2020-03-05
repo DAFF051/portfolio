@@ -1,6 +1,5 @@
-
-require('dotenv').config({ path: 'variables.env' });
-
+require('dotenv').config({ path: '.env' });
+console.log(process.env.SENDGRID_API_KEY);
 const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
@@ -15,7 +14,6 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 
 app.post('/contact', (req, res) => {
-
   let name = req.body.name;
   let text = req.body.message;
   console.log(name);
