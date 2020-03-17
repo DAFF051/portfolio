@@ -6,7 +6,7 @@ import 'bootstrap/scss/bootstrap.scss';
 import '../scss/main.scss';
 import Header from './components/navbar';
 import Footer from './components/footer';
-import Welcome from './pages/home';
+import Home from './pages/home';
 import About from './pages/about';
 import Contact from './pages/contact';
 
@@ -26,7 +26,7 @@ function App () {
         <Header />
         <Switch>
           <Route exact path="/">
-            <Welcome />
+            <Home />
           </Route>
           <Route path="/about">
             <About />
