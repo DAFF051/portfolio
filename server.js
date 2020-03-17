@@ -1,8 +1,8 @@
 require('dotenv').config({ path: '.env' });
-console.log(process.env.SENDGRID_API_KEY);
 const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
+const path = require('path');
 var emailexistence = require('email-existence');
 
 const sgMail = require('@sendgrid/mail');
@@ -12,6 +12,10 @@ const app = express();
 app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
+
+app.get('*', (req, res) => {
+  res.sendFile(path.resolve(__dirname, 'index.html'));
+});
 
 app.post('/contact', (req, res) => {
   let email = req.body.email;
