@@ -4,7 +4,7 @@ import InputForm from '../components/contact';
 
 function Contact () {
   return (
-    <div> <InputForm /></div>
+    <> <InputForm /></>
   );
 }
 

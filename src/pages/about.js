@@ -4,10 +4,10 @@ import AboutHeader from '../components/aboutHeader';
 
 function About () {
   return (
-    <>
+    <div>
       <AboutHeader />
       <MyStory />
-    </>
+    </div>
   );
 }
 

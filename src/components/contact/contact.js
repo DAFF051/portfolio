@@ -52,12 +52,12 @@ function inputForm () {
   };
 
   return (
-    <div className="container-fluid">
+    <div className="container-fluid my-7">
       <div className="row justify-content-center text-center align-items-center my-4">
-        <div className="col-12">
+        <div className="col-12 my-5">
           <h1 className="font-weight-bolder text-success">Contact Me!</h1>
         </div>
-        <form className="col-12" onSubmit={handleOnSubmit}>
+        <form className="col-12 my-3" onSubmit={handleOnSubmit}>
           <div className="row justify-content-center text-center my-4">
             <label className="col-2 font-weight-bold" htmlFor="email">Email:</label>
             <input
@@ -83,7 +83,7 @@ function inputForm () {
               style={{ height: 150 }}
             />
           </div>
-          <div className="row justify-content-center text-center">
+          <div className="row justify-content-center text-center my-3">
             <div className="col-8 my-5">
               <button type="submit" className="btn btn-lg btn-outline-secondary" disabled={serverState.submitting}>
                 Submit

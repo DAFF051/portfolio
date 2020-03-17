@@ -3,7 +3,7 @@ import HomeHeader from '../components/homeHeader';
 import WhatIDoHome from '../components/whatIDoHome';
 import TogetherBanner from '../components/togetherBanner';
 
-function Welcome () {
+function Home () {
   return (
     <div>
       <HomeHeader />
@@ -13,4 +13,4 @@ function Welcome () {
   );
 }
 
-export default Welcome;
+export default Home;
